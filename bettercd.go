@@ -60,7 +60,7 @@ func main() {
 
 		//  if a directory exists
 		if fInfo, err := os.Stat(targetPath); err == nil {
-			if fInfo.IsDir(){
+			if ! fInfo.IsDir(){
 				return 
 			}
 			Log := <-log
