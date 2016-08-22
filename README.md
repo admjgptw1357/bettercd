@@ -23,7 +23,11 @@ You can download the binary file in [release](https://github.com/admjgptw1357/be
 ```
 mkdir ~/.bettercd
 cp bettercd ~/.bettercd
-cp bettercd.sh ~/.bettercd
+cp setting.sh ~/.bettercd
+
+echo "source ~/.bettercd/setting.sh" >> ~/.bashrc
+# or
+echo "source ~/.bettercd/setting.sh" >> ~/.zshrc
 ```
 
 ### how to install from source code
