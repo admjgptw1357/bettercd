@@ -10,8 +10,7 @@ function bettercd(){
       local num="$(echo $dir | wc -l)"
       if [ $num -eq 1 ]; then
          builtin cd "$(echo $dir)"
-         printf "jumped
-          to "
+         printf "jumped to "
          pwd
       else
          local cdir="$(pwd)"
