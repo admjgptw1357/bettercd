@@ -1,5 +1,5 @@
 # Better cd
-better cd 
+better cd
 
 ## Features
 - Fast directory jumping
