@@ -6,10 +6,11 @@ install: bettercd
 		mkdir ~/.bettercd; \
 	fi
 	\cp -f bettercd ~/.bettercd
-	\cp -f bettercd.sh ~/.bettercd
-	echo "source ~/.bettercd/bettercd.sh" >> ~/.zshrc
+	\cp -f setting.sh ~/.bettercd
+	echo "source ~/.bettercd/setting.sh" >> ~/.zshrc
+	echo "source ~/.bettercd/setting.sh" >> ~/.bashrc
 	@echo "Plese re-login or source"
 
 update: bettercd
 	\cp -f bettercd ~/.bettercd
-	\cp -f bettercd.sh ~/.bettercd
+	\cp -f setting.sh ~/.bettercd

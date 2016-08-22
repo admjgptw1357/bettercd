@@ -16,10 +16,24 @@ If path don't exist, bettercd will find a path from log and change that director
 - peco
 - go lang compilar
 
-### how to install
-Firstly, edit `Makefile` line 10 if you use bash.
 
-`make`→`make install`
+### install from binary
+You can download the binary file in [release](https://github.com/admjgptw1357/bettercd/releases/tag/v_0.11) page.
+
+```
+mkdir ~/.bettercd
+cp bettercd ~/.bettercd
+cp bettercd.sh ~/.bettercd
+```
+
+### how to install from source code
+```
+wget https://github.com/admjgptw1357/bettercd/
+cd bettercd
+make
+make install
+```
+
 
 ## Config
 There are 4 paramters in `./bettercd/bettercd.sh`.
